@@ -6,4 +6,3 @@ Stranica: https://bobanelkapne.github.io/pjesmarica-privacy/
 
 - Brisanje podataka: https://bobanelkapne.github.io/pjesmarica-privacy/#brisanje
 
-Sadržaj je u `index.html` (objavljuje se putem GitHub Pages iz grane `main`).
