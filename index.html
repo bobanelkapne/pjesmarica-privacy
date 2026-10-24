@@ -32,7 +32,7 @@
 <div class="pjesmarica-pravila">
 
   <h1>Pravne politike aplikacije Pjesmarica</h1>
-  <p class="azurirano">Zadnje ažuriranje: 24. 10. 2026.</p>
+  <p class="azurirano">Zadnje ažuriranje: 25. 10. 2026.</p>
 
   <div class="sadrzaj">
     <strong>Sadržaj</strong>
@@ -49,8 +49,8 @@
   <h2 id="privatnost">1. Politika privatnosti</h2>
 
   <h3>Ukratko</h3>
-  <p>Pjesmarica ne prikuplja vaše osobne podatke tijekom korištenja. Aplikacija nema korisničke račune, ne koristi analitiku, oglase ni praćenje, i ne koristi oglasni ID uređaja. Aplikaciju možete koristiti bez davanja ikakvih osobnih podataka.</p>
-  <p>Podatke primamo samo kad nam ih sami pošaljete: kad prijavite grešku, predložite značajku ili glasate za prijedlog (vidi <a href="#prijave">Prijave grešaka, prijedlozi i glasanje</a>).</p>
+  <p>Pjesmarica ne prikuplja vaše osobne podatke tijekom korištenja. Ne koristi analitiku, oglase ni praćenje, i ne koristi oglasni ID uređaja. Aplikaciju možete koristiti bez davanja ikakvih osobnih podataka.</p>
+  <p>Podatke primamo samo kad nam ih sami pošaljete: kad prijavite grešku, predložite značajku ili glasate za prijedlog (vidi <a href="#prijave">Prijave grešaka, prijedlozi i glasanje</a>), a na Windowsu i kad se prijavite računom s crosell.hr ili kupite pretplatu (vidi <a href="#windows-privatnost">Pjesmarica za Windows: račun i pretplata</a>).</p>
 
   <h3>Podaci koji ostaju na vašem uređaju</h3>
   <p>Sljedeći podaci spremaju se isključivo na vašem uređaju i nikada nam se ne šalju:</p>
@@ -96,11 +96,33 @@
     <li><strong>Sigurnost:</strong> podaci se šalju šifriranom vezom (HTTPS); snimke zaslona spremaju se u mapu koja nije javno dostupna.</li>
   </ul>
 
+
+  <h3 id="windows-privatnost">Pjesmarica za Windows: račun i pretplata</h3>
+  <p>Na Windowsu se Premium ne kupuje putem Google Playa, nego na našoj stranici <strong>crosell.hr</strong>. Za to vam je potreban korisnički račun na crosell.hr, a aplikacija se s njim povezuje prijavom („Prijavi se” u aplikaciji otvara crosell.hr/aktivacija/, gdje prijavu potvrdite).</p>
+  <table>
+    <thead><tr><th>Što obrađujemo</th><th>Podaci</th><th>Čemu služe</th></tr></thead>
+    <tbody>
+      <tr><td>Korisnički račun</td><td>e-adresa, ime, lozinka (spremljena samo kao jednosmjerni hash) ili prijava Google računom na stranici</td><td>prijava, upravljanje pretplatom, obavijesti o pretplati</td></tr>
+      <tr><td>Računalo (licenca)</td><td>jednosmjerni hash identifikatora računala (izveden iz identifikatora instalacije Windowsa; izvorni identifikator nikad ne napušta računalo), naziv računala, verzija aplikacije, vrijeme aktivacije i zadnje provjere; IP adresa kod pokretanja prijave (zaštita od zlouporabe)</td><td>licenca vrijedi za jedno računalo, prijenos licence na drugo računalo</td></tr>
+      <tr><td>Pretplata</td><td>plan, status, datumi (početak, probno razdoblje, kraj razdoblja), automatsko obnavljanje, vrijeme i IP adresa prihvaćanja uvjeta</td><td>izvršenje ugovora o pretplati, dokaz o pristanku</td></tr>
+      <tr><td>Plaćanja</td><td>ime, e-adresa, adresa i država s kartice ili PayPal računa, iznos, datum, broj računa</td><td>naplata, izdavanje računa, povrat novca</td></tr>
+    </tbody>
+  </table>
+  <ul>
+    <li><strong>Plaćanje:</strong> karticom putem <a href="https://stripe.com/privacy" target="_blank" rel="noopener">Stripea</a> ili putem <a href="https://www.paypal.com/myaccount/privacy/privacyhub" target="_blank" rel="noopener">PayPala</a>. Broj kartice i podatke za plaćanje obrađuju isključivo oni; mi ih ne vidimo i ne spremamo.</li>
+    <li><strong>Na računalu</strong> aplikacija sprema tokene prijave (šifrirano, vezano uz vaš Windows korisnički račun) i potpisanu potvrdu licence, kako bi Premium radio i bez internetske veze. Jednom dnevno aplikacija provjerava stanje pretplate na crosell.hr.</li>
+    <li><strong>Glasanje na Windowsu</strong> koristi isti račun s crosell.hr; uz glasove spremamo samo jednosmjerni hash broja računa.</li>
+    <li><strong>Pravna osnova:</strong> izvršenje ugovora (račun, licenca, pretplata) i zakonska obveza (računi i knjigovodstvene isprave).</li>
+    <li><strong>Koliko čuvamo:</strong> podatke o računu, računalima i pretplati dok imate račun; podatke o plaćanjima i računima onoliko koliko propisuju računovodstveni i porezni propisi (u Hrvatskoj 11 godina).</li>
+    <li><strong>Dijeljenje:</strong> podatke ne prodajemo; dijelimo ih samo s pružateljima plaćanja (Stripe, PayPal) radi naplate te s pružateljem web-hostinga u EU na čijem su poslužitelju pohranjeni.</li>
+    <li><strong>Odjava i brisanje:</strong> „Odjava s ovog računala” u aplikaciji oslobađa licencu i briše podatke prijave s računala. Račun s crosell.hr možete obrisati zahtjevom na crosell@crosell.hr (vidi <a href="#brisanje">Brisanje podataka</a>); podaci o plaćanjima koje moramo čuvati po zakonu ostaju do isteka zakonskog roka.</li>
+  </ul>
+
   <h3 id="brisanje">Brisanje podataka i prijave za glasanje</h3>
-  <p>Aplikacija nema korisničke račune; jedina „prijava” je Google prijava za glasanje. Brisanje možete zatražiti u bilo kojem trenutku, bez obrazloženja:</p>
+  <p>Android verzija nema korisničke račune; jedina „prijava” je Google prijava za glasanje. Na Windowsu se prijavljujete računom s crosell.hr. Brisanje možete zatražiti u bilo kojem trenutku, bez obrazloženja:</p>
   <ul>
     <li><strong>Odjava na uređaju:</strong> u aplikaciji (Postavke → Prijedlog) dodirnite „Odjava” – podaci o prijavi brišu se s vašeg uređaja.</li>
-    <li><strong>Brisanje na našem poslužitelju:</strong> pošaljite e-poruku na <a href="mailto:crosell@crosell.hr?subject=Pjesmarica%20-%20brisanje%20podataka">crosell@crosell.hr</a> s naslovom „Pjesmarica – brisanje podataka” i navedite e-adresu koju ste koristili u prijavi greške ili prijedlogu, odnosno Google račun kojim ste glasali. U roku od 30 dana obrisat ćemo vaše prijave, snimke zaslona, prijedloge, glasove i podatke o prijavi te vam to potvrditi.</li>
+    <li><strong>Brisanje na našem poslužitelju:</strong> pošaljite e-poruku na <a href="mailto:crosell@crosell.hr?subject=Pjesmarica%20-%20brisanje%20podataka">crosell@crosell.hr</a> s naslovom „Pjesmarica – brisanje podataka” i navedite e-adresu koju ste koristili u prijavi greške ili prijedlogu, odnosno Google račun kojim ste glasali ili e-adresu svog računa na crosell.hr. U roku od 30 dana obrisat ćemo vaše prijave, snimke zaslona, prijedloge, glasove, podatke o prijavi i račun na crosell.hr (uz aktivnu pretplatu najprije je isključite u Moj račun → Moje pretplate) te vam to potvrditi.</li>
     <li>Ne zadržavamo nikakve podatke nakon brisanja, osim ako to zahtijeva zakon.</li>
   </ul>
 
@@ -116,7 +138,7 @@
   <p>Aplikacija nije namijenjena djeci mlađoj od 13 godina i ne prikuplja podatke o djeci.</p>
 
   <h3>Vaša prava</h3>
-  <p>Za podatke iz prijava, prijedloga i glasanja imate pravo na pristup, ispravak, brisanje, ograničenje obrade i prenosivost te pravo na povlačenje privole – za sve to javite nam se (vidi <a href="#kontakt">Kontakt</a>) i odgovorit ćemo u roku od 30 dana. Ostale podatke ne prikupljamo, pa ih nemamo ni čime dostaviti ili obrisati. Podacima o kupnji upravljate u svom Google računu. Imate i pravo podnijeti pritužbu Agenciji za zaštitu osobnih podataka (AZOP, azop.hr).</p>
+  <p>Za podatke iz prijava, prijedloga i glasanja te za račun i pretplatu na crosell.hr (Windows) imate pravo na pristup, ispravak, brisanje, ograničenje obrade i prenosivost te pravo na povlačenje privole – za sve to javite nam se (vidi <a href="#kontakt">Kontakt</a>) i odgovorit ćemo u roku od 30 dana. Ostale podatke ne prikupljamo, pa ih nemamo ni čime dostaviti ili obrisati. Podacima o kupnji na Androidu upravljate u svom Google računu. Imate i pravo podnijeti pritužbu Agenciji za zaštitu osobnih podataka (AZOP, azop.hr).</p>
 
   <h3>Izmjene</h3>
   <p>Ako se način na koji aplikacija postupa s podacima promijeni, ažurirat ćemo ovu stranicu i datum na njezinu vrhu, a o značajnim promjenama obavijestit ćemo vas u aplikaciji ili u opisu aplikacije na Google Playu.</p>
@@ -125,7 +147,7 @@
   <h2 id="uvjeti">2. Uvjeti korištenja i pretplata</h2>
 
   <h3>Korištenje aplikacije</h3>
-  <p>Aplikaciju smijete koristiti za osobne potrebe i za nastupe. Zabranjeno je kopirati, distribuirati, mijenjati ili ponovno objavljivati aplikaciju i njezin sadržaj bez našeg dopuštenja. Aplikacija se na Androidu smije instalirati samo iz Google Play trgovine; kopije instalirane na drugi način neće raditi.</p>
+  <p>Aplikaciju smijete koristiti za osobne potrebe i za nastupe. Zabranjeno je kopirati, distribuirati, mijenjati ili ponovno objavljivati aplikaciju i njezin sadržaj bez našeg dopuštenja. Aplikacija se na Androidu smije instalirati samo iz Google Play trgovine; kopije instalirane na drugi način neće raditi. Windows verzija preuzima se samo sa stranice crosell.hr.</p>
   <p>Sadržaj se pruža „kakav jest”, bez jamstva točnosti, potpunosti ili stalne dostupnosti. Zadržavamo pravo mijenjanja, dodavanja ili uklanjanja značajki te prestanka razvoja aplikacije.</p>
 
   <h3>Besplatna verzija i Premium</h3>
@@ -142,7 +164,7 @@
     <li>Promjena sata ili datuma na uređaju ne produljuje besplatno razdoblje.</li>
   </ul>
 
-  <h3>Pretplata</h3>
+  <h3>Pretplata na Androidu (Google Play)</h3>
   <ul>
     <li>Pretplata je mjesečna ili godišnja. Cijena za vašu zemlju, s uključenim PDV-om, prikazuje se u aplikaciji i u Google Playu prije kupnje.</li>
     <li>Novi korisnici mjesečnu pretplatu mogu isprobati <strong>mjesec dana besplatno</strong>. Ako pretplatu ne otkažete prije isteka probnog razdoblja, nakon njega naplaćuje se mjesečna cijena.</li>
@@ -150,6 +172,19 @@
     <li>Pretplatu možete otkazati bilo kada u Google Play trgovini (Profil → Plaćanja i pretplate → Pretplate) ili u aplikaciji (Pretplata → Otkaži pretplatu). Nakon otkazivanja Premium ostaje aktivan do kraja plaćenog razdoblja.</li>
     <li>Plan možete promijeniti u aplikaciji: prelazak s mjesečnog na godišnji plan vrijedi odmah (neiskorišteni dio razdoblja Google Play uračunava u novi plan), a prelazak s godišnjeg na mjesečni počinje po isteku plaćene godine.</li>
     <li>Povrati novca odvijaju se prema <a href="https://support.google.com/googleplay/answer/2479637" target="_blank" rel="noopener">pravilima Google Playa o povratu novca</a>.</li>
+  </ul>
+
+
+  <h3 id="windows">Pretplata na Windowsu (crosell.hr)</h3>
+  <ul>
+    <li><strong>Kupnja:</strong> pretplata za Windows kupuje se na crosell.hr (stranica aplikacije Pjesmarica) i plaća karticom (Stripe) ili PayPalom. Planovi, razdoblje naplate i cijena u eurima prikazuju se prije plaćanja. Ako plan uključuje besplatno probno razdoblje, to je navedeno uz plan. PDV se ne obračunava (obveznik nije u sustavu PDV-a); iznos koji vidite je iznos koji plaćate.</li>
+    <li><strong>Prije plaćanja</strong> prihvaćate Uvjete pretplate i ove pravne politike te izričito tražite da usluga počne odmah. Račun za svaku uplatu šaljemo e-poštom.</li>
+    <li><strong>Automatsko obnavljanje:</strong> pretplata se obnavlja na kraju svakog razdoblja dok obnavljanje ne isključite u <strong>Moj račun → Moje pretplate</strong> na crosell.hr (u aplikaciji: Licenca → Upravljaj pretplatom). Nakon isključivanja Premium vrijedi do kraja plaćenog razdoblja. Za planove od 3 mjeseca ili dulje prije obnove šaljemo podsjetnik e-poštom.</li>
+    <li><strong>Pravo na odustajanje:</strong> od kupnje možete odustati u roku od <strong>14 dana</strong> gumbom u Moj račun → Moje pretplate; uplata se vraća na isti način plaćanja.</li>
+    <li><strong>Jedno računalo:</strong> pretplata vrijedi za jedno računalo. Prijavom na drugom računalu licenca se prenosi na njega (nekoliko prijenosa mjesečno), a na prethodnom se Premium isključuje. „Odjava s ovog računala” oslobađa licencu bez trošenja prijenosa.</li>
+    <li><strong>Bez interneta:</strong> Premium radi i bez internetske veze do 30 dana od zadnje provjere (ne dulje od plaćenog razdoblja); nakon toga aplikacija se mora spojiti na internet.</li>
+    <li><strong>Neuspjelo plaćanje:</strong> ako obnova ne uspije, Premium ostaje aktivan kratko vrijeme dok ne ažurirate način plaćanja; nakon toga aplikacija prelazi na besplatnu verziju.</li>
+    <li>Pretplata kupljena na crosell.hr vrijedi samo za Windows verziju; pretplata kupljena na Google Playu vrijedi samo na Androidu.</li>
   </ul>
 
   <!-- ===================================================== 3 -->
